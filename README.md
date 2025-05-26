@@ -217,13 +217,6 @@ api:limit:{user_id}:{endpoint} -> Request count with TTL
 - **PrivacyControl.sol**: Data access permissions
 - **GovernanceToken.sol**: Platform governance and voting
 
-### Data Flow
-```
-User Action → Cupid Agent → Database Update → Blockchain Record
-                ↓
-        Real-time Cache → WebSocket Push → Frontend Update
-```
-
 ---
 
 ## 🧠 LLM Engine
