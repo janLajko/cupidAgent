@@ -31,24 +31,15 @@ Cupid Agent is an innovative decentralized social platform that uses AI agents t
 
 ## 🏗️ System Architecture
 
-https://storage.googleapis.com/aitryon-images/cupid.drawio%20(1).png
+![image](https://storage.googleapis.com/aitryon-images/cupid.drawio%20(1).png)
 
 ---
 
 ## 🧩 Core Components
 
-### 1. **Olas Platform Integration**
-The foundation layer providing Web3 infrastructure and ecosystem connectivity.
+### 1. **Cupid Agent - Core AI Engine**
 
-**Key Integrations:**
-- ☁️ **Google Cloud**: Scalable cloud infrastructure
-- ⚡ **Ethereum**: Smart contract deployment and execution
-- 🔵 **Circle**: Payment and stablecoin integration
-- 🌊 **Flow**: NFT and digital asset management
-
-### 2. **Cupid Agent - Core AI Engine**
-
-#### 2.1 User Info Manager
+#### 1.1 User Info Manager
 **Purpose**: Centralized user data management and profile maintenance
 
 **Core Functions:**
@@ -75,7 +66,7 @@ The foundation layer providing Web3 infrastructure and ecosystem connectivity.
 }
 ```
 
-#### 2.2 Matching Algorithm Engine
+#### 1.2 Matching Algorithm Engine
 **Purpose**: AI-powered intelligent user matching based on compatibility analysis
 
 **Core Functions:**
@@ -90,7 +81,7 @@ The foundation layer providing Web3 infrastructure and ecosystem connectivity.
 - **Hybrid Approach**: Combined algorithmic and AI-driven matching
 - **Feedback Loop**: Continuous learning from user interactions
 
-#### 2.3 Conversation Context Manager
+#### 1.3 Conversation Context Manager
 **Purpose**: Maintains conversation history and context for seamless AI interactions
 
 **Core Functions:**
@@ -117,7 +108,7 @@ The foundation layer providing Web3 infrastructure and ecosystem connectivity.
 }
 ```
 
-#### 2.4 Social Media Platform Agent
+#### 1.4 Social Media Platform Agent
 **Purpose**: Interfaces with external social platforms to gather user behavioral data
 
 **Supported Platforms:**
@@ -132,7 +123,7 @@ The foundation layer providing Web3 infrastructure and ecosystem connectivity.
 - Content preferences
 - Social network topology
 
-#### 2.5 Scheduled Tasks
+#### 1.5 Scheduled Tasks
 **Purpose**: Automated background processes for data updates and maintenance
 
 **Key Tasks:**
@@ -141,7 +132,7 @@ The foundation layer providing Web3 infrastructure and ecosystem connectivity.
 - **Monthly**: Data archival, performance analytics
 - **Real-time**: Message processing, status updates
 
-#### 2.6 LLM Agent
+#### 1.6 LLM Agent
 **Purpose**: Direct interface with large language models for conversation and analysis
 
 **Capabilities:**
